@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.terrence</groupId>
-	<artifactId>db2-test</artifactId>
+	<artifactId>cfenv-db2-test-only</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>db2-test</name>
+	<name>cfenv-db2-test-only</name>
 	<description>A test app using the CfEnvProcessor Implementation for DB2</description>
 
 	<properties>
