@@ -1,4 +1,4 @@
-package org.terrence.testapp.rest;
+package org.terrence.cfenvprocessors.rest;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -7,8 +7,8 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.terrence.testapp.domain.Person;
-import org.terrence.testapp.repositories.PersonRepository;
+import org.terrence.cfenvprocessors.domain.Person;
+import org.terrence.cfenvprocessors.repositories.PersonRepository;
 
 @RestController
 public class TestRestController {

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.terrence</groupId>
-	<artifactId>testapp</artifactId>
+	<artifactId>db2-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testapp</name>
-	<description>Demo project for Spring Boot</description>
+	<name>db2-test</name>
+	<description>A test app using the CfEnvProcessor Implementation for DB2</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -43,7 +43,12 @@
 			<groupId>com.ibm.db2.jcc</groupId>
 			<artifactId>db2jcc4</artifactId>
 			<version>4.21.29</version>
-		</dependency>	
+		</dependency>
+		<dependency>
+            <groupId>com.github.tnixa</groupId>
+            <artifactId>cfenv-processor-db2</artifactId>
+            <version>-SNAPSHOT</version>
+        </dependency>	
 	</dependencies>
 
 	<repositories>
@@ -51,8 +56,12 @@
 			<id>repo</id>
 			<url>file://${project.basedir}/lib</url>
 		</repository>
+		<repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
 	</repositories>
-
+	
 	<build>
 		<plugins>
 			<plugin>

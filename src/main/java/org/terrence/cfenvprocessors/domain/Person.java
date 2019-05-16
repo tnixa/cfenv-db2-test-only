@@ -1,4 +1,4 @@
-package org.terrence.testapp.domain;
+package org.terrence.cfenvprocessors.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
